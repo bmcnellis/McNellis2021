@@ -1,0 +1,21 @@
+citHeader("This data can be cited in publications using:")
+
+citEntry(entry = "Article",
+         title        = "Tree mortality in Western United States forests forecasted using forest inventory and Random Forest classification.",
+         author       = personList(as.person("Brandon E. McNellis"),
+                                   as.person("Alistair M. S. Smith"),
+                                   as.person("Andrew T. Hudak"),
+                                   as.person("Eva K. Strand")),
+         journal      = "Ecosphere",
+         year         = "2021",
+         volume       = "",
+         number       = "",
+         pages        = "",
+         url          = "",
+
+         textVersion  =
+           paste("Brandon McNellis, Alistair M.S. Smith, Andrew T. Hudak, and Eva K. Strand (2021).",
+                 "Tree mortality in Western United States forests forecasted using forest inventory and Random Forest classification.",
+                 "Ecosphere, volume, number, pages",
+                 "url")
+)
